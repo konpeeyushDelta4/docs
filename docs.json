@@ -25,7 +25,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/assets/logo-light.png",
+    "dark": "/assets/logo-dark.png"
   }
 }

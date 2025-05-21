@@ -4,17 +4,13 @@ description: "Gamified Conversational AI for Smart Product Experiences"
 ---
 
 <img
-  className="block dark:hidden"
-  src="/images/yourgpt-bot-light.png"
-  alt="YourGPT Bot Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/yourgpt-bot-dark.png"
-  alt="YourGPT Bot Dark"
+  className="block"
+  src="/assets/hero-1.png"
+  alt="Hero"
 />
 
-## Executive Summary
+
+## Problem Statement in a Nutshell
 
 <Note>
 The YourGPT Interactive Bot transforms traditional chatbot interactions into an intelligent, feature-rich command center that allows users to explore, control, and learn about YourGPT's capabilities through natural conversation. By combining utility with gamification elements, this solution dramatically improves product engagement and user onboarding while providing a novel approach to product support and feature discovery.
@@ -36,9 +32,6 @@ Create a conversational interface that serves as both an interactive assistant a
   <Card title="Gamified Engagement" icon="gamepad">
     Engage with the product through gamified elements
   </Card>
-  <Card title="Contextual Support" icon="headset">
-    Receive contextual support based on current activities
-  </Card>
   <Card title="Personalized Experience" icon="user-gear">
     Personalize experience without navigating complex menus
   </Card>
@@ -48,16 +41,10 @@ Create a conversational interface that serves as both an interactive assistant a
 
 <Steps>
   <Step title="Increase Feature Adoption">
-    Boost usage of advanced features by 40% through conversational discovery
+    Boost usage of advanced features through conversational discovery
   </Step>
   <Step title="Reduce Onboarding Time">
-    Cut new user time-to-proficiency by 30% using interactive guidance
-  </Step>
-  <Step title="Enhance User Retention">
-    Improve 30-day retention rates through gamification mechanics
-  </Step>
-  <Step title="Streamline Support">
-    Decrease support ticket volume by providing immediate, contextual assistance
+    Cut new user time-to-proficiency using interactive guidance
   </Step>
   <Step title="Create Product Differentiation">
     Establish a unique market position with innovative AI-driven UX
@@ -81,87 +68,9 @@ Create a conversational interface that serves as both an interactive assistant a
     - Advanced features remain hidden behind menus and documentation
     - Technical terminology creates barriers to understanding capabilities
   </Accordion>
-  <Accordion title="Impersonal Support Mechanisms">
-    - Generic help documentation doesn't address specific user contexts
-    - Traditional chatbots follow rigid decision trees with limited flexibility
-  </Accordion>
-  <Accordion title="Engagement Challenges">
-    - Learning complex products feels like work rather than exploration
-    - No incentives for discovering advanced capabilities
-  </Accordion>
+
 </AccordionGroup>
 
-## Core Solution Components
-
-<Tabs>
-  <Tab title="Conversational Command Center">
-    ### Natural Language Control Panel
-    - Execute product commands through chat (e.g., "Create a new flow named 'Customer Onboarding'")
-    - Modify settings via conversation (e.g., "Switch to dark mode" or "Increase text size")
-    - Navigate between sections without menu searching (e.g., "Take me to analytics")
-
-    ### Contextual Helper
-    - Observe current user activity and offer relevant assistance
-    - Provide just-in-time explanations for complex features
-    - Suggest next steps based on common usage patterns
-  </Tab>
-  <Tab title="Interactive Learning System">
-    ### Visual + Verbal Explanations
-    - Generate dynamic visual aids when explaining complex concepts
-    - Simplify technical terms into accessible language
-    - Create custom diagrams showing relationships between features
-
-    ### Hands-On Tutorials
-    - Guide users through features with interactive walkthroughs
-    - Allow practice with simulated data before affecting real projects
-    - Provide immediate feedback during learning activities
-  </Tab>
-  <Tab title="Gamification Framework">
-    ### Achievement System
-    - Award badges for feature discovery and mastery
-    - Create tiered achievements that encourage progressive learning
-    - Display achievement progress in user profile
-
-    ### Daily Challenges
-    - Present daily micro-challenges to teach new skills
-    - Rotate focus areas to ensure comprehensive product knowledge
-    - Provide small rewards for consistent participation
-
-    ### Knowledge Quests
-    - Structure learning paths as multi-step quests
-    - Create themed adventures around product capability areas
-    - Include "boss challenges" that test comprehensive understanding
-  </Tab>
-  <Tab title="Personalization Engine">
-    ### Adaptive Interface
-    - Remember user preferences across sessions
-    - Adjust conversation style to match user communication patterns
-    - Prioritize information based on user role and previous interactions
-
-    ### Progress Tracking
-    - Monitor feature usage and proficiency
-    - Identify knowledge gaps and suggest relevant learning
-    - Celebrate milestones and progress
-  </Tab>
-</Tabs>
-
-## Technical Implementation
-
-### Architecture
-
-<CardGroup cols={2}>
-  <Card title="Modular Bot Framework" icon="puzzle-piece">
-    - Core conversational engine with NLU capabilities
-    - Action dispatcher for executing commands
-    - Knowledge base connector for retrieving product information
-    - Gamification service for tracking achievements and progress
-  </Card>
-  <Card title="Integration Points" icon="plug">
-    - YourGPT API connections for executing commands
-    - User data storage for personalization
-    - Analytics integration for tracking engagement metrics
-  </Card>
-</CardGroup>
 
 ### Key Technologies
 
@@ -171,11 +80,6 @@ Create a conversational interface that serves as both an interactive assistant a
     - Entity extraction for parameter identification
     - Context management for multi-turn conversations
   </Card>
-  <Card title="Visual Generation" icon="image">
-    - Dynamic diagram creation for concept explanation
-    - Interactive UI elements embedded in chat
-    - Animated micro-tutorials for feature demonstrations
-  </Card>
   <Card title="Voice Capabilities" icon="microphone">
     - Speech-to-text for hands-free operation
     - Text-to-speech for auditory learning
@@ -184,6 +88,12 @@ Create a conversational interface that serves as both an interactive assistant a
 </CardGroup>
 
 ## User Experience Scenarios
+
+<img
+  className="block"
+  src="/assets/hero-2.png"
+  alt="Hero"
+/>
 
 ### Scenario 1: New User Onboarding
 
@@ -237,142 +147,7 @@ Bot: "Entities are specific pieces of information you want to extract from user 
 ```
 </CodeGroup>
 
-## Deployment & Scaling Strategy
 
-<Tabs>
-  <Tab title="Phase 1: MVP Release">
-    ### Core Conversational Features
-    - Basic command execution
-    - Fundamental product explanations
-    - Simple achievement system
-
-    ### Limited User Testing
-    - Invite beta users for feedback
-    - Measure engagement metrics
-    - Identify high-value commands
-  </Tab>
-  <Tab title="Phase 2: Enhanced Capabilities">
-    ### Advanced Gamification
-    - Complete achievement system
-    - Daily challenges
-    - Leaderboards and social elements
-
-    ### Expanded Control Surface
-    - More complex command execution
-    - Batch operations through conversation
-    - Context-aware suggestions
-  </Tab>
-  <Tab title="Phase 3: Enterprise Integration">
-    ### Team Collaboration Features
-    - Role-based permissions through conversation
-    - Team progress tracking
-    - Collaborative learning experiences
-
-    ### Custom Deployment Options
-    - Private cloud deployment
-    - Enhanced security measures
-    - Enterprise SSO integration
-  </Tab>
-</Tabs>
-
-## Future Roadmap
-
-### Expanded Capabilities
-
-<CardGroup cols={3}>
-  <Card title="Multi-modal Interaction" icon="layer-group">
-    - Process uploaded images for visual analysis and feedback
-    - Generate custom visualizations based on user data
-    - Support gesture-based interactions in mobile environments
-  </Card>
-  <Card title="Proactive Assistance" icon="robot">
-    - Anticipate user needs based on behavior patterns
-    - Suggest optimizations for existing workflows
-    - Alert users to relevant new features or best practices
-  </Card>
-  <Card title="Cross-platform Synchronization" icon="arrows-rotate">
-    - Maintain conversation context across devices
-    - Begin interactions on mobile and continue on desktop
-    - Synchronize learning progress across platforms
-  </Card>
-</CardGroup>
-
-### Advanced Gamification
-
-<CardGroup cols={3}>
-  <Card title="Collaborative Challenges" icon="users-gear">
-    - Team-based competitions and challenges
-    - Collaborative learning exercises
-    - Shared achievements for organizational goals
-  </Card>
-  <Card title="Adaptive Difficulty" icon="gauge-high">
-    - Personalized challenge difficulty based on skill level
-    - Progressive complexity introduction
-    - Skill-based matchmaking for competitive elements
-  </Card>
-  <Card title="Virtual Economy" icon="coins">
-    - Earnable virtual currency for unlocking premium content
-    - Customization options as rewards
-    - Special feature access through achievement milestones
-  </Card>
-</CardGroup>
-
-### AI Enhancement
-
-<CardGroup cols={3}>
-  <Card title="Sentiment Analysis" icon="face-smile">
-    - Detect user frustration and adjust assistance approach
-    - Identify confusion and provide additional context
-    - Recognize success moments for positive reinforcement
-  </Card>
-  <Card title="Predictive Modeling" icon="chart-line">
-    - Suggest next actions based on usage patterns
-    - Recommend features based on similar user profiles
-    - Identify potential bottlenecks before they occur
-  </Card>
-  <Card title="Generative Content" icon="wand-magic-sparkles">
-    - Create custom templates based on user needs
-    - Generate starter flows for common use cases
-    - Develop personalized learning materials
-  </Card>
-</CardGroup>
-
-## Business Impact & Metrics
-
-### Key Performance Indicators
-
-<Tabs>
-  <Tab title="Engagement Metrics">
-    - Daily active users interacting with the bot
-    - Average conversation length and depth
-    - Feature adoption rates following bot interactions
-  </Tab>
-  <Tab title="Learning Effectiveness">
-    - Time to proficiency with advanced features
-    - Knowledge retention measured through challenges
-    - Support ticket reduction for explained features
-  </Tab>
-  <Tab title="Business Outcomes">
-    - User retention improvements
-    - Expansion of feature usage across organizations
-    - Reduction in onboarding and support costs
-  </Tab>
-</Tabs>
-
-### Competitive Advantage
-
-<CardGroup cols={2}>
-  <Card title="Market Differentiation" icon="certificate">
-    - Unique, conversation-first approach to product interaction
-    - Seamless blending of support, control, and gamification
-    - Progressive learning model that adapts to user needs
-  </Card>
-  <Card title="Barrier to Competition" icon="shield-halved">
-    - Accumulated user preference data creates personalization moat
-    - Growing knowledge base of contextual assistance
-    - Network effects from collaborative gamification elements
-  </Card>
-</CardGroup>
 
 ## Conclusion
 
@@ -380,37 +155,7 @@ Bot: "Entities are specific pieces of information you want to extract from user 
 The YourGPT Interactive Bot represents a paradigm shift in how users interact with complex products. By combining natural language control, interactive learning, and gamification elements, it creates an engaging experience that simultaneously simplifies product usage while encouraging exploration of advanced capabilities. This approach not only solves immediate usability challenges but establishes a foundation for continuous engagement and feature adoption.
 </Note>
 
-## Getting Started
+## Bot Demo in Action
 
-Ready to experience the YourGPT Interactive Bot? Here's how to begin:
-
-<CardGroup cols={2}>
-  <Card
-    title="Try Demo"
-    icon="play"
-    href="/yourgpt-bot/demo"
-  >
-    Experience the YourGPT Interactive Bot in action
-  </Card>
-  <Card
-    title="Integration Guide"
-    icon="book"
-    href="/yourgpt-bot/integration"
-  >
-    Learn how to integrate the bot into your YourGPT instance
-  </Card>
-  <Card
-    title="Bot Commands"
-    icon="terminal"
-    href="/yourgpt-bot/commands"
-  >
-    Explore the full list of available bot commands
-  </Card>
-  <Card
-    title="API Reference"
-    icon="code"
-    href="/yourgpt-bot/api"
-  >
-    Access the bot's API for custom integrations
-  </Card>
-</CardGroup>
+Gamification feature during human escalation
+<video src="/assets/demo.mp4" controls />
