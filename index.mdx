@@ -1,161 +1,132 @@
 ---
-title: "YourGPT Interactive Bot"
-description: "Gamified Conversational AI for Smart Product Experiences"
+title: "Interactive Waiting Experience"
+description: "Gamified Waiting Experience for Enhanced User Engagement"
 ---
 
 <img
   className="block"
   src="/assets/hero-1.png"
-  alt="Hero"
+  alt="Emoji Riddle Game Hero"
 />
 
-
-## Problem Statement in a Nutshell
+## Engaging Waiting Experiences
 
 <Note>
-The YourGPT Interactive Bot transforms traditional chatbot interactions into an intelligent, feature-rich command center that allows users to explore, control, and learn about YourGPT's capabilities through natural conversation. By combining utility with gamification elements, this solution dramatically improves product engagement and user onboarding while providing a novel approach to product support and feature discovery.
+The Emoji Riddle Game transforms the traditionally frustrating waiting period between user support requests and operator connection into an engaging, interactive experience. By combining clever emoji puzzles with gamification elements, this solution dramatically reduces perceived wait times while providing a novel approach to customer retention during transition periods.
 </Note>
 
 ## Project Vision & Objectives
 
 ### Primary Goal
 
-Create a conversational interface that serves as both an interactive assistant and a control hub for YourGPT, enabling users to:
+Create an interactive waiting experience that keeps users engaged while waiting for human operators:
 
 <CardGroup cols={2}>
-  <Card title="Feature Access" icon="wand-magic-sparkles">
-    Access and control product features through natural language
+  <Card title="Entertainment" icon="face-smile">
+    Transform idle waiting into active engagement through emoji challenges
   </Card>
-  <Card title="Guided Learning" icon="graduation-cap">
-    Learn about complex functionality through guided conversations
+  <Card title="Retention" icon="user-check">
+    Reduce abandonment rates during operator transitions
   </Card>
-  <Card title="Gamified Engagement" icon="gamepad">
-    Engage with the product through gamified elements
+  <Card title="Gamified Learning" icon="trophy">
+    Create engagement through achievements and progressive difficulty
   </Card>
-  <Card title="Personalized Experience" icon="user-gear">
-    Personalize experience without navigating complex menus
+  <Card title="Seamless Handoff" icon="arrow-right-arrow-left">
+    Ensure smooth transition from game to human operator
   </Card>
 </CardGroup>
 
 ### Strategic Objectives
 
 <Steps>
-  <Step title="Increase Feature Adoption">
-    Boost usage of advanced features through conversational discovery
+  <Step title="Decrease Perceived Wait Time">
+    Make waiting feel shorter through active engagement
   </Step>
-  <Step title="Reduce Onboarding Time">
-    Cut new user time-to-proficiency using interactive guidance
+  <Step title="Increase Customer Satisfaction">
+    Transform frustration into enjoyment during unavoidable delays
   </Step>
-  <Step title="Create Product Differentiation">
-    Establish a unique market position with innovative AI-driven UX
+  <Step title="Gather Engagement Metrics">
+    Collect valuable data on user patience and problem-solving approaches
   </Step>
 </Steps>
 
 ## Problem Space Analysis
 
-### Current Industry Limitations
+### Current Waiting Experience Limitations
 
 <AccordionGroup>
-  <Accordion title="Passive Information Delivery">
-    - Most AI assistants provide information but don't take action
-    - Users must manually implement suggestions across different parts of the interface
+  <Accordion title="User Frustration">
+    - Static "waiting for operator" messages create frustration
+    - Users have nothing to do but watch loading indicators
+    - Uncertainty about wait duration increases anxiety
   </Accordion>
-  <Accordion title="Disjointed User Experience">
-    - Traditional UIs separate help/documentation from functional controls
-    - Users must context-switch between learning and doing
+  <Accordion title="Missed Engagement Opportunities">
+    - Traditional waiting rooms fail to utilize available user attention
+    - Companies miss chances to create positive brand associations
+    - Valuable time for potential product education is wasted
   </Accordion>
-  <Accordion title="Complex Feature Discovery">
-    - Advanced features remain hidden behind menus and documentation
-    - Technical terminology creates barriers to understanding capabilities
+  <Accordion title="High Abandonment Rates">
+    - Users frequently leave during long waiting periods
+    - Support resources are wasted when users abandon after partial waits
+    - Negative waiting experiences damage overall brand perception
   </Accordion>
-
 </AccordionGroup>
 
-
-### Key Technologies
-
-<CardGroup cols={3}>
-  <Card title="Language Understanding" icon="comments">
-    - Intent recognition for identifying user goals
-    - Entity extraction for parameter identification
-    - Context management for multi-turn conversations
-  </Card>
-  <Card title="Voice Capabilities" icon="microphone">
-    - Speech-to-text for hands-free operation
-    - Text-to-speech for auditory learning
-    - Voice pattern recognition for user identification
-  </Card>
-</CardGroup>
-
-## User Experience Scenarios
+## How It Works
 
 <img
   className="block"
   src="/assets/hero-2.png"
-  alt="Hero"
+  alt="Emoji Game Flow"
 />
 
-### Scenario 1: New User Onboarding
+### The Emoji Riddle Experience
 
-<CodeGroup>
-```dialogue New User Conversation
-User: "Hi, I'm new to YourGPT. Where should I start?"
+<CardGroup cols={3}>
+  <Card title="Adaptive Difficulty" icon="chart-line">
+    - Progressively challenging puzzles
+    - Difficulty calibrated to user success
+    - Multiple difficulty tracks
+  </Card>
+  <Card title="Achievement System" icon="medal">
+    - Points for correct answers
+    - Badges for completion streaks
+    - Shareable achievements
+  </Card>
+  <Card title="Feedback Mechanism" icon="arrow-right-to-bracket">
+    - Each click on the emoji will give feedback to the user
+    - Actions have seperate sound effects
+    - Game ending screen with summary of achievements
+  </Card>
+</CardGroup>
 
-Bot: "Welcome! Let's get you started. Would you like to:
-1. Take a quick tour of the main features
-2. Build your first conversation flow 
-3. Learn about how YourGPT can help with your specific needs"
+<div style={{ display: 'flex', gap: '20px', justifyContent: 'space-evenly'}}>
+  <video src="/assets/correct.mp4" width={300} height={300} controls />
+  <video src="/assets/wrong.mp4" width={300} height={300} controls />
+</div>
 
-User: "Let's build my first flow"
+## Future Capabilities
 
-Bot: "Great choice! I'll guide you through creating a basic conversation flow. First, let's understand what flows are." 
-[Displays simple animated diagram explaining flows]
-"Ready to create your first one? I can help you build a simple greeting flow."
-```
-</CodeGroup>
+Our solution extends beyond simple waiting room entertainment. As we continue development, the Emoji Riddle Game will evolve into an intelligent platform for:
 
-### Scenario 2: Feature Control
-
-<CodeGroup>
-```dialogue Theme Switching
-User: "I'd like to switch to dark mode"
-
-Bot: "Switching to dark mode now!"
-[Theme changes immediately]
-"You can also try our other themes like Aurora or Ocean. Would you like to preview any of these?"
-
-User: "Show me Aurora"
-
-Bot: "Here's a preview of the Aurora theme:"
-[Displays theme preview]
-"Would you like to switch to this theme or go back to dark mode?"
-```
-</CodeGroup>
-
-### Scenario 3: Advanced Feature Discovery
-
-<CodeGroup>
-```dialogue Learning About Entities
-User: "What are entities and how do they work?"
-
-Bot: "Entities are specific pieces of information you want to extract from user messages. For example, in 'Book a flight to Paris,' 'Paris' would be a location entity."
-[Displays interactive card showing entity types]
-"Would you like to:
-1. See examples of different entity types
-2. Learn how to create your own entities
-3. See how entities connect with intents in a flow"
-```
-</CodeGroup>
+<CardGroup cols={2}>
+  <Card title="Bot-Driven Customization" icon="wand-magic-sparkles">
+    Enable users to customize their experience through natural conversation:
+    "Can you switch to sports-themed riddles?" or "Make the puzzles harder"
+  </Card>
+  <Card title="Platform Education" icon="graduation-cap">
+    Incorporate product knowledge into riddles, teaching users about features
+    while they wait
+  </Card>
+</CardGroup>
 
 
+## Bot in Action
 
-## Conclusion
+Watch how the Emoji Riddle Game transforms the waiting experience:
 
-<Note type="success">
-The YourGPT Interactive Bot represents a paradigm shift in how users interact with complex products. By combining natural language control, interactive learning, and gamification elements, it creates an engaging experience that simultaneously simplifies product usage while encouraging exploration of advanced capabilities. This approach not only solves immediate usability challenges but establishes a foundation for continuous engagement and feature adoption.
-</Note>
+<div style={{display: 'flex', justifyContent: 'center'}}>
+  <iframe width="554" height="984" src="https://www.youtube.com/embed/16WwJnQtJW8" title="Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-## Bot Demo in Action
 
-Gamification feature during human escalation
-<video src="/assets/demo.mp4" controls />
